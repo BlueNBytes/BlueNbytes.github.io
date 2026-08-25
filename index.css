@@ -6,3 +6,20 @@
 .h_1_1 {
     color: lightblue;
 }
+
+.logo {
+  width: 150px;  /* Changes width to 300 pixels */
+  height: auto;  /* Maintains original proportions */
+  position: absolute; /* Removes the image from normal document flow */
+  top: 0;             /* Aligns it perfectly to the top edge */
+  right: 0;           /* Aligns it perfectly to the right edge */
+
+}
+
+.button2{
+    border-radius: 100px;
+    color: white;
+    background-color: darkslategrey;
+    outline: 10px;
+    
+}
